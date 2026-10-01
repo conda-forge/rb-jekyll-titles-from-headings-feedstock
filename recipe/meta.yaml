@@ -1,5 +1,5 @@
 {% set name = "jekyll-titles-from-headings" %}
-{% set version = "0.5.1" %}
+{% set version = "0.5.7" %}
 
 package:
   name: rb-{{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://rubygems.org/downloads/{{ name }}-{{ version }}.gem
-  sha256: b94886da7d9f764a1212c063146fa32e4531ae0e09e3db54d2561865b474ef61
+  sha256: 927437000037da3433e0d4c8f509c56be811ab123ea70548acb914df0dd7a33d
 
 build:
   noarch: generic
